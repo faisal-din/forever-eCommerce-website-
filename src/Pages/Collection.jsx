@@ -1,5 +1,5 @@
 import { useContext, useEffect, useState } from 'react';
-import { ShopContext } from '../context/ShopContext';
+import { ShopContext } from '../Context/ShopContext';
 import { assets } from '../assets/assets';
 import Title from '../Components/Title';
 import ProductItem from '../Components/ProductItem';
@@ -190,7 +190,7 @@ const Collection = () => {
 
       <div className="flex-1">
         {/* Title */}
-        <div className="flex justify-between text-base sm:text-xl lg:text-2xl mb-4">
+        <div className="flex justify-between text-sm sm:text-xl lg:text-2xl mb-4">
           <Title text1={'ALL'} text2={'COLLECTIONS'} />
 
           {/* Product Sort */}
